@@ -92,14 +92,6 @@ cancel.addEventListener("click",function(){
         subcribepage.style.top="-700%"
 })
 
-var nav1=document.querySelector(".categories")
-var next=document.querySelector(".page2")
-var nav2=document.querySelector(".skills")
-var nav3=document.querySelector(".customer")
-
-nav1.onclick =() =>{
-    nav1.classList.toggle("next")
-}
 
 // gsap works
 
@@ -116,6 +108,16 @@ gsap.from(".main .right",{
     delay:1,
     // scale:1,
     x:-200
+})
+var hea=document.querySelector("h2")
+hea.addEventListener("click",function(){
+    gsap.from("hea",{
+        opacity:0,
+        duration:2,
+        delay:2,
+        // scale:1,
+        yoyo:true
+    })
 })
 
 

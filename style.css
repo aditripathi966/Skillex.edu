@@ -53,7 +53,19 @@ h2 {
   /* position: relative; */
   overflow: hidden;
 }
-a {
+.navv-heading{
+  font-family: gilroy;
+  font-weight: 100;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  /* position: relative; */
+  overflow: hidden;
+  text-decoration: none;
+  color: #1e1e2f;
+  transition: all cubic-bezier(0.39, 0.575, 0.565, 1) ease;
+}
+.atag {
   text-decoration: none;
   color: black;
   /* background-color: greenyellow; */
@@ -83,11 +95,11 @@ h3 {
   cursor: pointer;
   font-weight: 600;
 }
-a:hover .green {
+.atag:hover .green {
   left: 0%;
   color: black;
 }
-a h3 {
+.atag h3 {
   font-weight: 500;
   position: relative;
   z-index: 99;
@@ -555,7 +567,7 @@ img {
   object-fit: cover;
   height: 50px;
   width: 50px;
-  margin-top: -30px;
+  margin-top: -12px;
   /* padding: 10px; */
 }
 .cards-page4 {
